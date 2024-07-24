@@ -1,8 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import { useState } from 'react'
+
 import viteLogo from '/vite.svg'
 import './App.css'
-import Home from './components/Home'
+import Ebooks from './components/Ebooks';
+import Whitepaper from './components/Whitepaper';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
   return (
     
       <div>
-        <Home/>
+        <Ebooks/>
+        <Whitepaper/>
        </div>
     
   )
